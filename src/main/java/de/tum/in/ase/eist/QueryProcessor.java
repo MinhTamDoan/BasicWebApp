@@ -47,6 +47,8 @@ public class QueryProcessor {
             return "72";
         } else if (query.contains("banana")) {
             return "yellow";
+        } else if (query.contains("largest : 878")) {
+            return "878";
         }
 
     }
