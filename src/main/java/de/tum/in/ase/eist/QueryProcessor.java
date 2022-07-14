@@ -41,6 +41,8 @@ public class QueryProcessor {
             return "21";
         } else if (query.contains("what is 13 plus 0")) {
             return "13";
+        } else if (query.contains("eiffel tower")) {
+            return "Paris";
         }
 
     }
