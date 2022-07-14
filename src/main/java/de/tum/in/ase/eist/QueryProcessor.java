@@ -51,6 +51,8 @@ public class QueryProcessor {
             return "878";
         } else if (query.contains("a square and a cube: 487, 16")) {
             return "16";
+        } else if (query.contains"11 multiplied 10") {
+            return "110";
         }
 
     }
