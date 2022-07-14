@@ -41,6 +41,7 @@ public class QueryProcessor {
         } else if (query.contains("Prime Minister")) {
             return 2002;
         }
+
     }
 }
 
