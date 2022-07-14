@@ -40,5 +40,6 @@ public class QueryProcessor {
         } else if (query.contains("4 plus 17")) {
             return "21";
         }
+
     }
 }
