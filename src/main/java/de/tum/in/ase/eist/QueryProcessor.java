@@ -38,6 +38,8 @@ public class QueryProcessor {
             return numbers[0];
         } else if (query.contains("banana")) {
             return "yellow";
+        } else if (query.contains("Prime Minister")) {
+            return 2002;
         }
     }
 }
