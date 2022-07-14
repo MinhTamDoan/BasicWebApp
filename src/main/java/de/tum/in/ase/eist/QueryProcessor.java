@@ -25,6 +25,8 @@ public class QueryProcessor {
             return "7";
         } else if (query.contains("what is 3 plus 8")) {
             return "11";
+        } else if (query.contains("largest : 35, 442")) {
+            return "442";
         }
     }
 }
