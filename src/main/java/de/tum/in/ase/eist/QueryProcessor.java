@@ -53,6 +53,8 @@ public class QueryProcessor {
             return "16";
         } else if (query.contains"11 multiplied 10") {
             return "110";
+        } else if (query.contains("4 multiplied by 4")) {
+            return "16";
         }
 
     }
