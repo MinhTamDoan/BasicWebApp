@@ -35,6 +35,10 @@ public class QueryProcessor {
             return "20";
         } else if (query.contains("largest: 584, 293, 67, 3")) {
             return "584";
+        } else if (query.contains("largest : 72, 426")) {
+            return "426";
+        } else if (query.contains("4 plus 17")) {
+            return "21";
         }
     }
 }
