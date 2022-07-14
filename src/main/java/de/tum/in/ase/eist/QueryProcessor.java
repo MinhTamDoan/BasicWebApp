@@ -45,6 +45,8 @@ public class QueryProcessor {
             return "Paris";
         }  else if (query.contains("18 mul")) {
             return "72";
+        } else if (query.contains("banana")) {
+            return "yellow";
         }
 
     }
