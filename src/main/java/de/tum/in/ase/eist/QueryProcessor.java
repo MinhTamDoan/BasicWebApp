@@ -36,8 +36,9 @@ public class QueryProcessor {
             Collections.sort(numbers);
             Collections.reverse(numbers);
             return numbers[0];
+        } else if (query.contains("year")) {
+            return numbers[0];
         }
-
     }
 }
 
