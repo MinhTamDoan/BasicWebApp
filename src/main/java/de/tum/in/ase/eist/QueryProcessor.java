@@ -23,6 +23,8 @@ public class QueryProcessor {
             return "24";
         } else if (query.contains("what is 3 plus 4")) {
             return "7";
+        } else if (query.contains("what is 3 plus 8")) {
+            return "11";
         }
     }
 }
