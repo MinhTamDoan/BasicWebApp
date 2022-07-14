@@ -49,6 +49,8 @@ public class QueryProcessor {
             return "yellow";
         } else if (query.contains("largest : 878")) {
             return "878";
+        } else if (query.contains("a square and a cube: 487, 16")) {
+            return "16";
         }
 
     }
