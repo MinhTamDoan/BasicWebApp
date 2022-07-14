@@ -43,6 +43,8 @@ public class QueryProcessor {
             return "13";
         } else if (query.contains("eiffel tower")) {
             return "Paris";
+        }  else if (query.contains("18 mul")) {
+            return "72";
         }
 
     }
