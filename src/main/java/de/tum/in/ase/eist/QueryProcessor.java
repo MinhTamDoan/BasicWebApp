@@ -28,11 +28,17 @@ public class QueryProcessor {
                     "writer in the English language and the world's pre-eminent dramatist.";
         } else if (query.contains("name")) {
             return "Tam";
-        }  else if (query.contains("multiplied")) {
+        } else if (query.contains("multiplied")) {
             return numbers[0] * numbers[1];
-        }  else if (query.contains("add")) {
+        } else if (query.contains("add")) {
             return numbers[0] + numbers[1];
+        } else if (query.contains("largest")) {
+            Collections.sort(numbers);
+            Collections.reverse(numbers);
+            return numbers[0];
         }
 
     }
 }
+
+
